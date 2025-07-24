@@ -1,6 +1,7 @@
 # Efficient Brain Tumor Detection with a Lightweight Customized CNN Approach
 
 <p align="center">
+  <img src="https://github.com/raahulmaurya1/Brain_tumar/blob/f2d7dd1fc8544c82beb2443bfc316072b7650c06/th%20(9).jpeg" height="35" width="100">
   <img src="https://img.shields.io/badge/Python-3.x-blue.svg" alt="Python 3.x">
   <img src="https://img.shields.io/badge/TensorFlow-2.x-orange.svg" alt="TensorFlow 2.x">
   <img src="https://img.shields.io/badge/Keras-2.x-red.svg" alt="Keras 2.x">
