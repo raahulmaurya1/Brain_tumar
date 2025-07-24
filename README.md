@@ -1,4 +1,4 @@
-# Brain Tumor Detection/Analysis using Deep Learning
+# Efficient Brain Tumor Detection with a Lightweight Customized CNN Approach
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue.svg" alt="Python 3.x">
@@ -142,9 +142,11 @@ The detailed architecture of the proposed tailored CNN model is as follows:
 | Dense | | | | 256 | 16640 |
 | Dense (1) | | | | 128 | 32896 |
 | Dense (2) | | | | 1 | 129 |
-| **Total Parameters** | | | | | **121744** |
-| **Trainable Parameters** | | | | | **693505** |
-| **Non-trainable Parameters** | | | | | **0** |
+
+---
+ **Total Parameters**  **121744** </br>
+ **Trainable Parameters** **693505** </br>
+**Non-trainable Parameters**  **0** 
 
 The input size is reshaped to $(512\times1024\times3)$. The network starts with a convolutional layer of 32 filters, each $(3\times3)$ kernel size, outputting $(112\times112\times16)$. Subsequent layers include more convolutional layers with increasing filter sizes and max-pooling layers for dimensionality reduction. The final layers consist of flattened output passed through fully connected (Dense) layers, with the last layer employing a softmax activation function for precise predictions.
 
