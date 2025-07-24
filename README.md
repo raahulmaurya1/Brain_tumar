@@ -7,8 +7,6 @@
   <img src="https://img.shields.io/badge/scikit--learn-green.svg" alt="Scikit-learn">
 </p>
 
-Introducing a groundbreaking advancement in medical imaging, our customized 3D Convolutional Neural Network (CNN) stands out as a leading solution for brain tumor detection. This innovative model has achieved an exceptional classification accuracy of **98.03%**, demonstrating its superior capability in precisely identifying brain tumors from MRI scans. Designed to be lightweight yet robust, our model surpasses existing methods by offering high performance with optimized computational complexity, making it an ideal tool for rapid and accurate diagnosis.
-
 ## 🌟 Table of Contents
 - [Description](#-description)
 - [Features](#-features)
@@ -25,7 +23,7 @@ Introducing a groundbreaking advancement in medical imaging, our customized 3D C
 
 ## 📝 Description
 
-This project focuses on the crucial task of brain tumor detection/analysis using a robust deep learning methodology. Specifically, it proposes a **lightweight customized Convolutional Neural Network (CNN) model** designed to achieve high accuracy with minimal computational complexity. The notebook `Finnal_File.ipynb` provides a comprehensive workflow, starting from the loading and preprocessing of medical image data, through the definition and training of this sophisticated deep learning model, and concluding with its evaluation. By employing advanced image processing and machine learning techniques, the project aims to accurately classify medical images and provide valuable insights for diagnostic purposes.
+Introducing a groundbreaking advancement in medical imaging, our customized 3D Convolutional Neural Network (CNN) stands out as a leading solution for brain tumor detection. This innovative model has achieved an exceptional classification accuracy of **98.03%**, demonstrating its superior capability in precisely identifying brain tumors from MRI scans. Designed to be lightweight yet robust, our model surpasses existing methods by offering high performance with optimized computational complexity, making it an ideal tool for rapid and accurate diagnosis.
 
 ## ✨ Features
 
@@ -124,6 +122,9 @@ The hyperparameters for the proposed customized CNN model are as follows:
 
 The proposed CNN model is a customized 3D Convolutional Neural Network (as depicted in Figure 1 of the paper). Its architecture is built to focus on picking out important features, which plays a significant role in accurately spotting tumors.
 
+<img src="https://github.com/raahulmaurya1/image_encryption_app/blob/ce3fa4629c6ffaa509c00f0891a8760cd9e1bf28/Histogram.png?raw=true" width="800" height="300"/>
+
+
 The detailed architecture of the proposed tailored CNN model is as follows:
 
 | Layer (Type) | Filter Size | Kernel Size | Strides | Output Shape | Number Of Parameters |
@@ -150,6 +151,7 @@ The input size is reshaped to $(512\times1024\times3)$. The network starts with 
 ## 📊 Performance & Results
 
 The proposed customized CNN model achieved an impressive **classification accuracy of 98.03%**.
+<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/a38662c71028796162d31cf8591269ef3d865c62/brain.png" alt="Brain" width="1000"/>
 
 The model's performance is further evidenced by its **confusion matrix** (as seen in Figure 3 of the paper), which highlights important metrics such as True Positives and False Positives.
 * **True Positives**: Instances of brain tumor correctly identified by the model.
@@ -157,10 +159,15 @@ The model's performance is further evidenced by its **confusion matrix** (as see
 
 **Confusion Matrix Values**:
 
-| | Predicted Normal | Predicted Tumor |
-| :----------- | :--------------- | :-------------- |
-| **True Normal** | 439 | 5 |
-| **True Tumor** | 10 | 299 |
+## 📉 Confusion Matrix
+
+<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/6d1436a3a39571743df276b890f70ace73fe074b/confusion%20matrix.png" alt="Confusion Matrix" width="500"/>
+
+## 📈 Loss & Accuracy
+
+<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/a38662c71028796162d31cf8591269ef3d865c62/loss.png" alt="Training Performance" width="500"/>
+<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/a38662c71028796162d31cf8591269ef3d865c62/accuracy.png" alt="Training Performance" width="500"/>
+
 
 The training and testing graphical representations (Figure 4 and Figure 5 in the paper) show consistent learning with minimal overfitting, indicating robust generalization. The accuracy generally improves over epochs, and loss values decrease, reflecting improved performance.
 
@@ -204,15 +211,19 @@ The notebook explicitly imports the following Python libraries:
 
 ## 🤝 Contributing
 
-We welcome contributions to this project! If you have suggestions for improvements, bug fixes, or new features, please feel free to:
+We ❤️ contributions!  
+Fork the repo → make your changes → submit a PR.
 
-1.  **Fork** the repository.
-2.  Create a new **branch** (`git checkout -b feature/YourFeature`).
-3.  Make your **changes**.
-4.  **Commit** your changes (`git commit -m 'Add some feature'`).
-5.  **Push** to the branch (`git push origin feature/YourFeature`).
-6.  Open a **Pull Request**.
+---
 
-## 📄 License
+## 📜 License
 
-(Please choose and specify your desired license here, e.g., MIT, Apache 2.0, etc. For example: `This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.`)
+Licensed under the [MIT License](LICENSE)
+
+---
+
+## 📬 Contact
+
+Created by Rahul Maurya 
+📧 Email: raahulmaurya2@gmail.com  
+🔗 GitHub: @raahulmaurya1
