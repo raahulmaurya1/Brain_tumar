@@ -122,7 +122,7 @@ The hyperparameters for the proposed customized CNN model are as follows:
 
 The proposed CNN model is a customized 3D Convolutional Neural Network (as depicted in Figure 1 of the paper). Its architecture is built to focus on picking out important features, which plays a significant role in accurately spotting tumors.
 
-<img src="https://github.com/raahulmaurya1/image_encryption_app/blob/ce3fa4629c6ffaa509c00f0891a8760cd9e1bf28/Histogram.png?raw=true" width="800" height="300"/>
+<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/cadd16d51514baa5b773762a95ee671c8d04bf20/CNN.drawio%20(1).png" width="800" height="600"/>
 
 
 The detailed architecture of the proposed tailored CNN model is as follows:
@@ -161,12 +161,12 @@ The model's performance is further evidenced by its **confusion matrix** (as see
 
 ## 📉 Confusion Matrix
 
-<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/6d1436a3a39571743df276b890f70ace73fe074b/confusion%20matrix.png" alt="Confusion Matrix" width="500"/>
+<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/6d1436a3a39571743df276b890f70ace73fe074b/confusion%20matrix.png" alt="Confusion Matrix" width="400"/>
 
 ## 📈 Loss & Accuracy
 
-<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/a38662c71028796162d31cf8591269ef3d865c62/loss.png" alt="Training Performance" width="500"/>
-<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/a38662c71028796162d31cf8591269ef3d865c62/accuracy.png" alt="Training Performance" width="500"/>
+<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/a38662c71028796162d31cf8591269ef3d865c62/loss.png" alt="Training Performance" width="400"/>
+<img src="https://github.com/raahulmaurya1/Brain_tumar/blob/a38662c71028796162d31cf8591269ef3d865c62/accuracy.png" alt="Training Performance" width="400"/>
 
 
 The training and testing graphical representations (Figure 4 and Figure 5 in the paper) show consistent learning with minimal overfitting, indicating robust generalization. The accuracy generally improves over epochs, and loss values decrease, reflecting improved performance.
