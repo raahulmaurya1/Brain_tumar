@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/scikit--learn-green.svg" alt="Scikit-learn">
 </p>
 
-This repository contains a Jupyter Notebook (`Finnal_File.ipynb`) and supporting documentation that implements a deep learning model for efficient brain tumor detection and analysis. The project leverages popular machine learning and deep learning libraries to process medical image data, extract relevant features, and classify/analyze the presence of brain tumors.
+Introducing a groundbreaking advancement in medical imaging, our customized 3D Convolutional Neural Network (CNN) stands out as a leading solution for brain tumor detection. This innovative model has achieved an exceptional classification accuracy of **98.03%**, demonstrating its superior capability in precisely identifying brain tumors from MRI scans. Designed to be lightweight yet robust, our model surpasses existing methods by offering high performance with optimized computational complexity, making it an ideal tool for rapid and accurate diagnosis.
 
 ## 🌟 Table of Contents
 - [Description](#-description)
